@@ -24,14 +24,11 @@ class Store {
         try {
             const res = yield axios.get("https://app.ftoyd.com/fronttemp-service/fronttemp")
             const data = res.data.data.matches
-            this.allMatches = data
+            this.allMatches = data            
             
-        } catch (err) {
-            console.error(err);
+        } catch(err) {
+            console.error(err)
             this.isError = true
-            setTimeout(() => {
-                this.isError = false
-            }, 3000)
         } finally {
             this.isLoading = false
         }

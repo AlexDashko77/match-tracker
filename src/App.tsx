@@ -17,8 +17,8 @@ const App = observer(() => {
     <div className="max-w-[1800px] mx-auto pl-5 pr-5 pt-11 flex flex-col gap-5">
      <Header/> 
      <div className="flex flex-col gap-3">
-     {store.sortedMatches.map((el, idx) => (
-      <Game key={idx} {...el} />
+     {store.sortedMatches.map((el) => (
+      <Game key={el.time} {...el} />
      ))}
      
      </div>

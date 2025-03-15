@@ -4,6 +4,7 @@ export interface IGame {
     homeScore: number
     homeTeam: ITeam
     status: string
+    time: string
     
 }
 
