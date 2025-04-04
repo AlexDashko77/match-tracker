@@ -35,7 +35,7 @@ Before running the project, make sure you have the following installed:
    
    This will start the project in development mode. The app will be accessible at:
    ```
-   http://localhost:3000
+   http://localhost:5173
    ```
 
 ## 🏗️ Building for Production
@@ -64,22 +64,8 @@ Before running the project, make sure you have the following installed:
    
    This will start a local server for testing the production build.
 
-## 🛠️ Additional Commands
-- **Linting the code:**
-  ```sh
-  npm run lint
-  ```
-- **Running tests:**
-  ```sh
-  npm test
-  ```
 
-## 📄 Environment Variables
-Create a `.env` file in the root directory and configure the required environment variables:
-```
-REACT_APP_API_URL=https://your-api-url.com
-REACT_APP_OTHER_KEY=your-value
-```
+
 
 ## 🔗 Useful Links
 - [React Documentation](https://react.dev/)
